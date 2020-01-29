@@ -2,21 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6068c7c6-413f-4217-a787-074ef281f70e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/common/chatbot/chatclient/SimpleChatClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/common/chatbot/chatclient/impl/TelegramChatClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/Ab.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/common/chatbot/TelegramClientApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/common/chatbot/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/common/chatbot/engine/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/common/chatbot/engine/impl/Engine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/common/chatbot/engine/SimpleEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/common/chatbot/engine/SimpleEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/io.ayush.bot.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/common/chatbot/TelegramClientApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/common/chatbot/engine/Engine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/common/chatbot/engine/SimpleEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/common/chatbot/engine/SimpleEngine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/io.ayush.bot.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/myPersonalChatBot.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/common/chatbot/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/common/chatbot/chatclient/SimpleChatClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/common/chatbot/chatclient/impl/TelegramChatClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/common/chatbot/engine/SimpleEngine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/common/chatbot/engine/impl/Engine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/common/chatbot/AppTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +38,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/lib" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
@@ -65,11 +63,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.TelegramClientApp" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -105,46 +98,54 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.720@0.0.1280.720" timestamp="1580232657686" />
-    <state width="1237" height="220" key="GridCell.Tab.0.bottom" timestamp="1580260777721">
+    <state width="1237" height="220" key="GridCell.Tab.0.bottom" timestamp="1580265665516">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="220" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1580260777721" />
-    <state width="1237" height="220" key="GridCell.Tab.0.center" timestamp="1580260777721">
+    <state width="1237" height="220" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1580265665516" />
+    <state width="1237" height="220" key="GridCell.Tab.0.center" timestamp="1580265665516">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="220" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1580260777721" />
-    <state width="1237" height="220" key="GridCell.Tab.0.left" timestamp="1580260777721">
+    <state width="1237" height="220" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1580265665516" />
+    <state width="1237" height="220" key="GridCell.Tab.0.left" timestamp="1580265665516">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="220" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1580260777721" />
-    <state width="1237" height="220" key="GridCell.Tab.0.right" timestamp="1580260777721">
+    <state width="1237" height="220" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1580265665516" />
+    <state width="1237" height="220" key="GridCell.Tab.0.right" timestamp="1580265665516">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="220" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1580260777721" />
-    <state width="1237" height="220" key="GridCell.Tab.1.bottom" timestamp="1580260777721">
+    <state width="1237" height="220" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1580265665516" />
+    <state width="1237" height="220" key="GridCell.Tab.1.bottom" timestamp="1580265665517">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="220" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1580260777721" />
-    <state width="1237" height="220" key="GridCell.Tab.1.center" timestamp="1580260777721">
+    <state width="1237" height="220" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1580265665517" />
+    <state width="1237" height="220" key="GridCell.Tab.1.center" timestamp="1580265665516">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="220" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1580260777721" />
-    <state width="1237" height="220" key="GridCell.Tab.1.left" timestamp="1580260777721">
+    <state width="1237" height="220" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1580265665516" />
+    <state width="1237" height="220" key="GridCell.Tab.1.left" timestamp="1580265665516">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="220" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1580260777721" />
-    <state width="1237" height="220" key="GridCell.Tab.1.right" timestamp="1580260777721">
+    <state width="1237" height="220" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1580265665516" />
+    <state width="1237" height="220" key="GridCell.Tab.1.right" timestamp="1580265665516">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="220" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1580260777721" />
+    <state width="1237" height="220" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1580265665516" />
     <state x="171" y="17" key="Maven.ArtifactSearchDialog" timestamp="1580256187466">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="171" y="17" key="Maven.ArtifactSearchDialog/0.0.1280.720@0.0.1280.720" timestamp="1580256187466" />
-    <state x="337" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1580255355877">
+    <state x="121" y="0" key="SettingsEditor" timestamp="1580265325324">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="337" y="186" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1580255355877" />
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1580265325324" />
+    <state x="337" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1580265686822">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="337" y="186" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1580265686822" />
+    <state x="297" y="161" key="run.anything.popup" timestamp="1580265012663">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="297" y="161" key="run.anything.popup/0.0.1280.720@0.0.1280.720" timestamp="1580265012663" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -163,16 +164,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/common/chatbot/engine/impl/Engine.java</url>
           <line>54</line>
           <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/common/chatbot/chatclient/impl/TelegramChatClient.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/common/chatbot/chatclient/impl/TelegramChatClient.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

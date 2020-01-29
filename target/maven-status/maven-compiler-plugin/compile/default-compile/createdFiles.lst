@@ -1,0 +1,5 @@
+org\common\chatbot\chatclient\impl\TelegramChatClient.class
+org\common\chatbot\engine\SimpleEngine.class
+org\common\chatbot\chatclient\SimpleChatClient.class
+org\common\chatbot\Application.class
+org\common\chatbot\engine\impl\Engine.class
