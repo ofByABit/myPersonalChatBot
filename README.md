@@ -1,2 +1,8 @@
-# myPersonalChatBot
-My Personal Chatbot with Telegram Chatbot Platform
+MyPersonalChatBot
+=====================
+
+**A simple chatbot implementation Using Alice Bot and Teligram Chatbot API**
+
+
+
+
