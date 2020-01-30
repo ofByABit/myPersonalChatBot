@@ -7,7 +7,8 @@ Uses AIML (AI Markup Language) for defining Bot's behaviour.
 
 Can be taught about by Adding new AIML files to its knowledge base.
 
-#Getting Started
+Getting Started
+---------------
   
   Pre-Requisits :-
     1.Java JDK 8
