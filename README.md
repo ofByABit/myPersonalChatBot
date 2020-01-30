@@ -11,11 +11,14 @@ Getting Started
 ---------------
   
   Pre-Requisits :-
-    1.Java JDK 8
-    2.Maven 
-    3.Telegram's chatbot API key
+  ---------
+  
+     1.Java JDK 8
+     2.Maven 
+     3.Telegram's chatbot API key
 
 Steps Involved :-
+  ---------
   
   1.Git Clone/ Download project Zip
   
