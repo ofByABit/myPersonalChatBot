@@ -19,6 +19,7 @@ Getting Started
 
 Building Project 
  ------------------
+ | JsonPath (click link to try)| Result |
   1.Git Clone/ Download project Zip
   2.Get in tought with Bot Father on Telegram platform for you api key and add the same to application.properties
   3. Run "MVN Clean Install Package"
