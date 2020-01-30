@@ -34,7 +34,15 @@ Running Jar
     Java -jar  Bot.<version>.jar
   
   
+  ## Author
+
+👤 **Ayush Vipul**
+
+- Github: [@kefranabg](https://github.com/ayush-vipul)
   
    
 
+## 📝 License
+
+Copyright © 2020 [Ayush Vipul](https://github.com/ayush-vipul).<br />
 
