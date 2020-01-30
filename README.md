@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to MySimpleChatbot 👋</h1>
+<h1 align="center">Welcome to myPersonalChatBot 👋</h1>
 
 
 **A simple chatbot implementation Using Alice Bot and Teligram Chatbot API**
