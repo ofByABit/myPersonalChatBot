@@ -17,17 +17,17 @@ Getting Started
      2.Maven 
      3.Telegram's chatbot API key
 
-Steps Involved :-
-  ---------
+Building Project :-
+ ---------
   
   1.Git Clone/ Download project Zip
-  
   2.Get in tought with Bot Father on Telegram platform for you api key and add the same to application.properties
-  
-  
   3. Run "MVN Clean Install Package"
-  
-  4. Java -jar Bot.<version>.jar
+ 
+ 
+Running Jar :-
+ ---------
+    Java -jar  Bot.<version>.jar
   
   
   
