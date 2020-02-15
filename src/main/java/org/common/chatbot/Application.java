@@ -16,38 +16,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class Application
 {
-//
-//    private static SimpleEngine chatBot = new Engine();
-//
-//    public static void main( String[] args )
-//    {
-//        TelegramBot bot = new TelegramBot("983716540:AAFGMtb1bmKJ8tNljKXctsumTQ4XYj607zo");
-//
-//        bot.setUpdatesListener(updates -> {
-//
-//            updates.stream().forEach(x-> {
-//                System.out.println(x.message().text());
-//              String res =  chatBot.respondToMessage(x.message().text());
-//
-//                long chatId = x.message().chat().id();
-//                SendResponse response = bot.execute(new SendMessage(chatId, res));
-//
-//            }  );
-//            return UpdatesListener.CONFIRMED_UPDATES_ALL;
-//        });
-//
-//
-//    }
-//
-
-
-   private static SimpleChatClient chatClient;
+    private static SimpleChatClient chatClient;
 
    @Autowired
    @Qualifier("TelegramChatClient")
    public void setSomeThing(SimpleChatClient client){
        chatClient = client;
     }
+
     public static void main(String[] args) throws Exception {
         SpringApplication.run(Application.class, args);
         SimpleEngine chatBot = new Engine();

@@ -1,16 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="myPersonalChatBot:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6068c7c6-413f-4217-a787-074ef281f70e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/myPersonalChatBot.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/common/chatbot/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/common/chatbot/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aiml/bot_profile.aiml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aiml/client_profile.aiml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aiml/contactaction.aiml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aiml/date.aiml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aiml/dialog.aiml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aiml/familiar.aiml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aiml/help.aiml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aiml/inappropriate.aiml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aiml/inquiry.aiml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aiml/insults.aiml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aiml/ontology.aiml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aiml/oob.aiml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aiml/personality.aiml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aiml/picture.aiml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aiml/profanity.aiml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aiml/reductions1.aiml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aiml/reductions_update.aiml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aiml/save.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aiml/sraix.aiml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aiml/testjp.aiml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aiml/that.aiml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aiml/train.aiml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aiml/udc.aiml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aiml/update.aiml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aiml/update.save" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aiml/utilities.aiml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aimlif/bot_profile.aiml.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aimlif/client_profile.aiml.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aimlif/contactaction.aiml.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aimlif/date.aiml.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aimlif/dialog.aiml.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aimlif/familiar.aiml.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aimlif/help.aiml.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aimlif/inappropriate.aiml.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aimlif/inquiry.aiml.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aimlif/insults.aiml.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aimlif/learnf.aiml.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aimlif/ontology.aiml.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aimlif/oob.aiml.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aimlif/personality.aiml.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aimlif/picture.aiml.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aimlif/profanity.aiml.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aimlif/reductions1.aiml.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aimlif/reductions_update.aiml.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aimlif/sraix.aiml.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aimlif/testjp.aiml.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aimlif/that.aiml.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aimlif/train.aiml.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aimlif/udc.aiml.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aimlif/update.aiml.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aimlif/utilities.aiml.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/config/copyright.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/config/denormal.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/config/gender.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/config/normal.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/config/person.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/config/person2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/config/predicates.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/config/properties.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/maps/familiarpredicate.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/maps/gendername.external" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/maps/gendername.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/maps/number2ordinal.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/maps/ordinal2number.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/maps/profile2predicate.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/maps/verb2sp2verb1sp.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/sets/bird.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/sets/color.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/sets/digit.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/sets/familiarname.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/sets/fastfood.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/sets/language.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/sets/mammal.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/sets/mammalfeature.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/sets/name.external" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/sets/name.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/sets/ordinal.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/sets/place.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/sets/preposition.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/sets/profile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/sets/verb2sp.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/sets/verb2st.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lib/Ab.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/common/chatbot/Application.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/common/chatbot/chatclient/SimpleChatClient.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/common/chatbot/chatclient/impl/TelegramChatClient.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/common/chatbot/engine/SimpleEngine.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/common/chatbot/engine/impl/Engine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/io.ayush.bot-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.common.chatbot.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.common.chatbot.AppTest.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/org/common/chatbot/AppTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +136,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/lib" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -50,7 +148,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Application" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.common.chatbot.Application" />
       <module name="myPersonalChatBot" />
       <extension name="coverage">
@@ -77,6 +175,42 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="360" y="20" key="#TelegramClientApp" timestamp="1580257111407">
       <screen x="0" y="0" width="1280" height="720" />
@@ -90,62 +224,66 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="446" y="71" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1580258157606" />
-    <state x="371" y="145" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1580257104461">
+    <state x="371" y="145" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1580278962972">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="371" y="145" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.720@0.0.1280.720" timestamp="1580257104461" />
+    <state x="371" y="145" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.720@0.0.1280.720" timestamp="1580278962972" />
     <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580232657686">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.720@0.0.1280.720" timestamp="1580232657686" />
-    <state width="1237" height="220" key="GridCell.Tab.0.bottom" timestamp="1580265665516">
+    <state x="421" y="117" key="FileChooserDialogImpl" timestamp="1580279046337">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="220" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1580265665516" />
-    <state width="1237" height="220" key="GridCell.Tab.0.center" timestamp="1580265665516">
+    <state x="421" y="117" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1580279046337" />
+    <state width="1237" height="176" key="GridCell.Tab.0.bottom" timestamp="1580282044384">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="220" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1580265665516" />
-    <state width="1237" height="220" key="GridCell.Tab.0.left" timestamp="1580265665516">
+    <state width="1237" height="176" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1580282044384" />
+    <state width="1237" height="176" key="GridCell.Tab.0.center" timestamp="1580282044384">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="220" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1580265665516" />
-    <state width="1237" height="220" key="GridCell.Tab.0.right" timestamp="1580265665516">
+    <state width="1237" height="176" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1580282044384" />
+    <state width="1237" height="176" key="GridCell.Tab.0.left" timestamp="1580282044384">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="220" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1580265665516" />
-    <state width="1237" height="220" key="GridCell.Tab.1.bottom" timestamp="1580265665517">
+    <state width="1237" height="176" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1580282044384" />
+    <state width="1237" height="176" key="GridCell.Tab.0.right" timestamp="1580282044384">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="220" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1580265665517" />
-    <state width="1237" height="220" key="GridCell.Tab.1.center" timestamp="1580265665516">
+    <state width="1237" height="176" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1580282044384" />
+    <state width="1237" height="220" key="GridCell.Tab.1.bottom" timestamp="1580282042869">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="220" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1580265665516" />
-    <state width="1237" height="220" key="GridCell.Tab.1.left" timestamp="1580265665516">
+    <state width="1237" height="220" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1580282042869" />
+    <state width="1237" height="220" key="GridCell.Tab.1.center" timestamp="1580282042869">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="220" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1580265665516" />
-    <state width="1237" height="220" key="GridCell.Tab.1.right" timestamp="1580265665516">
+    <state width="1237" height="220" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1580282042869" />
+    <state width="1237" height="220" key="GridCell.Tab.1.left" timestamp="1580282042869">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="220" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1580265665516" />
+    <state width="1237" height="220" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1580282042869" />
+    <state width="1237" height="220" key="GridCell.Tab.1.right" timestamp="1580282042869">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="220" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1580282042869" />
     <state x="171" y="17" key="Maven.ArtifactSearchDialog" timestamp="1580256187466">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="171" y="17" key="Maven.ArtifactSearchDialog/0.0.1280.720@0.0.1280.720" timestamp="1580256187466" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1580265325324">
+    <state x="121" y="0" key="SettingsEditor" timestamp="1580279052452">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1580265325324" />
-    <state x="337" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1580265686822">
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1580279052452" />
+    <state x="337" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1580278679699">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="337" y="186" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1580265686822" />
-    <state x="297" y="161" key="run.anything.popup" timestamp="1580265012663">
+    <state x="337" y="186" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1580278679699" />
+    <state x="297" y="161" key="run.anything.popup" timestamp="1580278942599">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="297" y="161" key="run.anything.popup/0.0.1280.720@0.0.1280.720" timestamp="1580265012663" />
+    <state x="297" y="161" key="run.anything.popup/0.0.1280.720@0.0.1280.720" timestamp="1580278942599" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
